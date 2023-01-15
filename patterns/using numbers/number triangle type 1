@@ -1,0 +1,25 @@
+/* Write a C program to print the following pattern:
+5
+4 4
+3 3 3
+2 2 2 2
+1 1 1 1 1*/
+
+#include<stdio.h>
+ 
+void main()
+{
+    int i,j,n;
+    printf("21. Write a C program to print the following pattern: \n 5  \n 4 4  \n 3 3 3\n 2 2 2 2 \n 1 1 1 1 1\n");
+    printf("Enter the no of lines\n");
+    scanf("%d",&n);
+    printf("\n"); 
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d", (j));
+        }
+        printf("\n");
+    }
+}
